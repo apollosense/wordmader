@@ -52,3 +52,5 @@ h2 small{font-size:12px;font-weight:400;color:#777}
 footer{margin:40px 0 10px;font-size:12px;text-align:center;color:#888}
 #lft{min-width:0}
 #chl{max-height:260px;overflow-y:auto}
+#bmc{display:block;text-align:center;font-family:Impact,"Arial Black",sans-serif;font-size:clamp(44px,9vw,110px);line-height:1;color:#ffd400;text-decoration:none;margin:4px 0 22px;letter-spacing:1px;-webkit-text-stroke:2px #000;text-shadow:4px 4px 0 #000}
+#bmc:hover{color:#ffe74d}
