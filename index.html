@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>wordmader</title>
+<link rel="stylesheet" href="style.css">
+</head><body>
+<a id=gh href="https://github.com/apollosense" target="_blank" rel="noopener">github</a>
+<h1>wordmader <span>v0.0.5</span></h1>
+<p class=sub>put pic. put words. thats it</p>
+<div id=wrap>
+<div id=lft>
+<label class=up id=drop><span id=dt>drop pic here or tap (or paste)</span><input type=file id=f accept="image/*"></label>
+<div class=chh><b>characters</b><button id=chs class="b alt sm">+ save this pic</button></div>
+<div id=chl></div>
+<textarea id=tx rows=4 placeholder="type ur deep thoughts">nothing teaches a man about life more than his own mistakes</textarea>
+<button id=rnd class="b alt">random words</button>
+<div class=row><span>side</span><select id=sd><option value=r>text right</option><option value=l>text left</option><option value=t>text top</option></select></div>
+<div class=row><span>font</span><select id=fn><option value="Arial Narrow,Arial">narrow</option><option value="Arial">arial</option><option value="Impact,Arial Black">impact</option><option value="Times New Roman,serif">times</option><option value="Courier New,monospace">courier</option></select></div>
+<div class=row><span>size</span><input type=range id=sz min=20 max=110 value=54></div>
+<div class=row><span>crust</span><input type=range id=cr min=1 max=10 value=7></div>
+<div class=row><span>width</span><input type=range id=tw min=15 max=95 value=39></div>
+<div class=row><span>zoom</span><input type=range id=zm min=20 max=400 value=100></div>
+<div class=row><span>shape</span><select id=sh><option value=s>square</option><option value=t>tall</option><option value=w>wide</option></select></div>
+<div class=row><label class=ck><input type=checkbox id=bw checked> b&amp;w pic</label><label class=ck><input type=checkbox id=bo> bold</label><label class=ck><input type=checkbox id=fl> flip pic</label><label class=ck><input type=checkbox id=fe> fade edges</label></div>
+<button id=rs class="b alt">reset layout</button>
+<div class=row2><button id=mk class=b>add to wall</button><button id=dl class="b alt">save png</button></div>
+</div>
+<div id=rgt><canvas id=c></canvas><div id=msg>drag the pic or the text. they can overlap</div></div>
+</div>
+<h2>the wall <small>stays in ur browser only</small></h2>
+<div id=wall></div>
+<div id=ov><div id=ovb><button id=ovx class=b>x</button><img id=ovi alt=""><p id=ovp>hold the pic to save it if the button dont work</p><div class=row2 id=ovbt><button id=ovd class=b>save</button><button id=ovr class="b alt">delete</button></div><div id=cf>u sure? <div class=row2 id=cfb></div></div></div></div>
+<footer>made at 3am</footer>
+<script src="script.js"></script>
+</body></html>
